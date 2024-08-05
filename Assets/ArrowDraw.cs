@@ -12,6 +12,9 @@ public class ArrowDraw : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // 解像度とウィンドウモードの設定
+        Screen.SetResolution(1280, 720, false);
+
         // 矢印非表示
         arrowImage.gameObject.SetActive(false);
         
